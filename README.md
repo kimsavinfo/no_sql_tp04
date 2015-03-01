@@ -8,10 +8,18 @@ Import the file "data_game_of_throne.json" and thansk to mapreduce, count the nu
 ##arangoDB
 Client access : http://localhost:8529/
 
-#For aql_findFamilyLinks.js : find all Sansa Stark relativs
+###Find all Sansa Stark relatives
+
+> aql_findFamilyLinks.js
+
 Import file "data_got_arrangoDB.json" as a collection document named "gameOfThrone"
+
 Import file "family_got.json" as a collection edge named "family_edge"
 
-#For aql_geolocalisation.js : find all characters living in Winterfell
+###Find all characters living in Winterfell
+
+>aql_geolocalisation.js
+
 Import file "town.json" as a collection document named "town"
+
 Create a collection edge named "family_edge"
